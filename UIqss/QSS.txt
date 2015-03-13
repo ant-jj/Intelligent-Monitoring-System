@@ -1,0 +1,38 @@
+QDialog{
+background: gray;
+}
+
+QFrame{
+border: 3px solid gray;
+border-radius: 40px;
+background: white;
+background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eef, stop: 1 #ccf);
+}
+
+QRadioButton{
+
+font-weight: bold;
+font-size: 15px;
+
+}
+
+QFrame{
+border: 3px solid gray;
+border-radius: 40px;
+background: white;
+background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eef, stop: 1 #ccf);
+}
+
+QLabel{
+border: none;
+background: white;
+font-weight: bold;
+font-size: 15px;
+
+}
+QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}

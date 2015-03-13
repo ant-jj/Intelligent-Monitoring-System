@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>rc/images/webcam.png</file>
+        <file>rc/images/windowicon.ico</file>
+        <file>rc/images/phone.ico</file>
+        <file>rc/images/settings.ico</file>
+        <file>rc/images/footer.jpg</file>
+        <file>rc/images/header.jpg</file>
+        <file>rc/images/image.ico</file>
+        <file>rc/images/logo.jpg</file>
+        <file>rc/images/logo2.jpg</file>
+        <file>rc/images/logo3.jpg</file>
+        <file>rc/images/power_off.png</file>
+        <file>rc/images/splash.png</file>
+    </qresource>
+</RCC>

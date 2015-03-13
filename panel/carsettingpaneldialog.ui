@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarSettingPanelDialog</class>
+ <widget class="QDialog" name="CarSettingPanelDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>292</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Car Speed Detect Setting</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>293</width>
+     <height>293</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>291</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame{
+border: 3px solid gray;
+border-radius: 40px;
+background: white;
+background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eef, stop: 1 #ccf);
+}
+
+
+QRadioButton{
+
+font-weight: bold;
+font-size: 15px;
+
+}
+QGroupBox{
+font-weight: bold;
+font-size: 15px;
+
+
+}
+
+
+QFrame{
+border: 3px solid gray;
+border-radius: 40px;
+background: white;
+background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #eef, stop: 1 #ccf);
+}
+QLabel{
+border: none;
+background: white;
+font-weight: bold;
+font-size: 15px;
+
+}
+QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="pushButton_exit">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>240</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Clsoe</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_apply">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>240</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>148</y>
+          <width>231</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Mode Two</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_select_video">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>211</width>
+           <height>34</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Choose a video file
+ for Tracking By Detect </string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>26</y>
+          <width>231</width>
+          <height>116</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Mode One</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_set_seq_dir">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>211</width>
+           <height>34</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Select The Dir that Contain 
+The image Seq </string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_set_seq_list">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>211</width>
+           <height>34</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Select The datalist.txt file
+ that Contain The image Seq name</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
